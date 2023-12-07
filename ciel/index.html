@@ -1,0 +1,29 @@
+<!-- Structure HTML pour le QCM -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz sur le Changement Climatique</title>
+  <!-- Ajout des liens vers les fichiers Bootstrap locaux -->
+</head>
+<body><form id="quiz-form">
+  <script src="ciel.js"></script>
+    <div class="question">
+      <h3>1. Quelle est la couleur du ciel ?</h3>
+      <label>
+        <input type="radio" name="q1" value="blue"> Bleu
+      </label><br>
+      <label>
+        <input type="radio" name="q1" value="green"> Vert
+      </label><br>
+      <label>
+        <input type="radio" name="q1" value="red"> Rouge
+      </label><br>
+    </div>
+    <button type="submit">Soumettre</button>
+  </form>
+  <div id="image-container">
+    <!-- Conteneur pour l'image -->
+    <img src="blue_correct_image.png" id="color-image" alt="Image de couleur" style="display: none;">
+  </div>
